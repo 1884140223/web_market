@@ -1,0 +1,136 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url(../image/123.jpg);
+}
+#title{
+	background:rgb(242,242,242);
+	line-height:30px;
+	filter:alpha(opacity=30);  /*支持 IE 浏览器*/
+	-moz-opacity:0.30; /*支持 FireFox 浏览器*/
+	opacity:0.30;  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+#title img{
+	margin-left:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	vertical-align:middle;
+}
+#title span{
+	margin-left:30px;
+	font-size:18px;
+	font-weight:bold;
+}
+#content{
+	width:100%;
+	height:550px;
+	margin-top:0%;
+	
+}
+
+
+.safety{
+	display:inline-block;
+	width:150px;
+	text-align:center;
+	margin-left:300px;
+	margin-top:50px;
+	font-size:25px;
+	border-radius:10px 10px 0px 0px;
+	background:#37B5DF;
+	filter:alpha(opacity=80);  /*支持 IE 浏览器*/
+	-moz-opacity:0.80; /*支持 FireFox 浏览器*/
+	opacity:0.80;  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+.mod_pwd{
+	display:inline-block;
+	width:150px;
+	text-align:center;
+	margin-top:50px;
+	font-size:25px;
+	border-radius:10px 10px 0px 0px;
+	background:#B0D4DF;
+	filter:alpha(opacity=80);  /*支持 IE 浏览器*/
+	-moz-opacity:0.80; /*支持 FireFox 浏览器*/
+	opacity:0.80;  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+
+#safety{
+	width:700px;
+	height:400px;
+	margin-left:300px;
+	clear:both;
+	padding-top:30px;
+	line-height:50px;
+	background:#37B5DF;
+	filter:alpha(opacity=80);  /*支持 IE 浏览器*/
+	-moz-opacity:0.80; /*支持 FireFox 浏览器*/
+	opacity:0.80;  /*支持 Chrome, Opera, Safari 等浏览器*/
+	
+}
+#safety>div{
+	width:500px;
+	height:300px;
+	margin-left:100px;
+	padding-top:50px;
+	background:#81D2ED;
+}
+#mod_pwd{
+	width:700px;
+	height:400px;
+	margin-left:300px;
+	clear:both;
+	padding-top:30px;
+	line-height:50px;
+	background:#37B5DF;
+	display:none;
+	filter:alpha(opacity=80);  /*支持 IE 浏览器*/
+	-moz-opacity:0.80; /*支持 FireFox 浏览器*/
+	opacity:0.80;  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+#mod_pwd div{
+	width:500px;
+	height:300px;
+	margin-left:100px;
+	padding-top:50px;
+	background:#81D2ED;
+}
+
+/**
+*表单部分
+*/
+.radio{	/*按钮*/
+	width:60px;
+	height:40px;
+	margin-bottom: 40px;
+	margin-left:80px;
+}
+#code{	/*用户*/
+	width:200px;
+	height:36px;
+}
+#myVcode{	/*验证码*/
+	width:200px;
+	height:36px;
+}
+#Vcode{
+	text-align:center;
+	width:50px;
+	height:36px;
+}
+.sub{
+	width:100px;
+	height:40px;
+	margin-left:150px;
+}
+
+#pwd1{
+	width:200px;
+	height:36px;
+}
+#pwd2{
+	width:200px;
+	height:36px;
+}
